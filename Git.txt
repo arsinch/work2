@@ -1,0 +1,25 @@
+git config --global user.name "arsinch"
+git config --global user.email artur.sinchugov1@gmail.com
+
+$ cat .gitconfig
+
+
+$ ssh-keygen -t ed25519 -C "artur.sinchugov1@gmail.com"
+$ pbcopy < .ssh/id_ed25519.pub
+$ clip < .ssh/id_ed25519.pub
+$ ssh -T git@github.com
+
+$ git init
+$ git add --all
+$ git commit -m "Add 1 and 2 txt"
+$ git remote add origin git@github.com:arsinch/work2.git
+$ git remote -v
+$ git push -u origin master
+$ git push
+
+
+
+
+
+
+
