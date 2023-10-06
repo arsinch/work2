@@ -17,6 +17,8 @@ $ git remote -v
 $ git push -u origin master
 $ git push
 
+git log --oneline
+
 untracked, tracked, staged, modified
 
 
