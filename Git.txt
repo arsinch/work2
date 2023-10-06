@@ -24,6 +24,5 @@ untracked, tracked, staged, modified
 git commit --ammend --no-edit
 git commit --ammend -m "EEee"
 
-
-
-
+git restore --staged <file>
+git reset --hard <hash commit>
