@@ -21,6 +21,8 @@ git log --oneline
 
 untracked, tracked, staged, modified
 
+git commit --ammend --no-edit
+git commit --ammend -m "EEee"
 
 
 
